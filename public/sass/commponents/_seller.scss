@@ -1,0 +1,72 @@
+.seller{
+    margin: 6rem 0 3rem 0;
+
+    &__image img{
+      width: 100%;
+      height: 22rem;
+    }
+}
+
+.seller .seller__box{
+    border: none !important;
+    -webkit-box-shadow: 0px 10px 12px -2px rgba(0,0,0,0.26); 
+box-shadow: 0px 10px 12px -2px rgba(0,0,0,0.26);
+}
+
+.seller .jordan:not(:last-child){
+    margin-bottom: 5rem;
+}
+
+.seller{
+    &__bg{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/Hair-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 18rem;
+        padding: 14rem 0 0 1rem;
+    }
+    &__bgS{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/Shave-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 18rem;
+        padding: 14rem 0 0 1rem;
+    }
+    &__bgH{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/Skin-bg-min-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 18rem;
+        padding: 14rem 0 0 1rem;
+    }
+    &__bgB{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/Body-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 18rem;
+        padding: 14rem 0 0 1rem;
+    }
+}
+
+.seller{
+    &__space{
+        background-color: #fafafa;
+       padding: 5rem 0 4rem 0;
+    }
+    &__img img{
+        width: 100%;
+        height: 22rem;
+    }
+    &__full{
+        border: none;
+        background-color: #fff;
+    }
+    &__feel{
+        padding: 5rem 1rem 1rem 1rem;
+    }
+  
+}

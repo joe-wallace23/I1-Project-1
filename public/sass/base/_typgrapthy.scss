@@ -1,0 +1,124 @@
+.banner{
+  &__content span.text{
+      font-size: .9rem;
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+  }
+}
+.bundle{
+  &__content h1.main{
+    font-size: 2.7rem;
+    color: #fff;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+  }
+  &__content p.para{
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+.seller{
+  &__content h3.best{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  }
+}
+
+.seller{
+ &__content h4.trimmer{
+   font-size: 1rem;
+   color: #000;
+   text-transform: uppercase;
+   letter-spacing: .4px;
+ }
+ &__content p.para{
+  font-size: .9rem;
+  color: gray;
+  letter-spacing: .3px;
+}
+&__bg h4.title{
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: .1rem;
+}
+&__bgS h4.title{
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: .1rem;
+}
+&__bgH h4.title{
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: .1rem;
+}
+&__bgB h4.title{
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: .1rem;
+}
+}
+
+.seller{
+  &__feel h3.title{
+    font-size: 1.1rem;
+    color: #000;
+    text-transform: uppercase;
+}
+&__feel h4.nameC{
+  font-size: .9rem;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+&__feel span.barber{
+  font-size: .8rem;
+  color: gray;
+  text-transform: capitalize;
+}
+}
+
+.street{
+  &__content h2.word{
+    font-size: 2.3rem;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    margin-bottom: .1rem;
+  }
+  &__content p.para{
+    font-size: 1.5rem;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+  }
+  &__content p.say{
+    font-size: 1.2rem;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  &__content span.users{
+    font-size: .9rem;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+.peep{
+  &__content{
+    background-color: #fff;
+    padding: 1rem;
+  }
+  &__content p.para{
+    font-size: .8rem;
+    color: #000;
+  }
+}
